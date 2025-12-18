@@ -67,8 +67,8 @@ btn.onclick = function () {
 <script>
 /* ... ide jön a JS ... */
 </script>
-
-#Funkciók
+```
+Funkciók
 
 Automatikusan megjelenik görgetés után
 Simán visszavisz a tetejére
@@ -76,11 +76,15 @@ Bal alsó sarokra pozicionált
 Arculathoz illeszkedő szín (#ffeb3b)
 Egyfájlos megoldás
 
-#Élő példa
+---
+
+Élő példa
 
 https://www.nemethlaszlokomuves.hu
 
-Fejlesztési tervek
+---
+
+Fejlesztési tervek:
 
 Mobilbarát verzió
 
@@ -90,16 +94,19 @@ Dark mode
 
 Automatikus méretezés
 
-Changelog
-v1.0 — (2025.01.17)
+---
 
-Alapverzió feltöltve: 2025.12.18
+Changelog
+v1.0 — (2025.12.18)
+
+Alapverzió feltöltve
 
 Működő scroll-to-top gomb
 
 Egyfájlos telepítés
 
-#License
+License
 
 MIT License
 Felhasználható, módosítható, terjeszthető — kérlek jelöld a forrást.
+
