@@ -17,7 +17,52 @@ Másold be az alábbi kódot a weboldalad HTML fájljába, közvetlenül a `</bo
 /* ... ide jön a CSS ... */
 </style>
 
+<!-- Scroll to Top Button - Left Side -->
+<style>
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  background: #ffeb3b;
+  color: #000;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+  z-index: 9999;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#scrollTopBtn:hover {
+  background: #f1d600;
+}
+</style>
+
 <div id="scrollTopBtn">∧</div>
+
+<script>
+let btn = document.getElementById("scrollTopBtn");
+
+window.onscroll = function () {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = "flex";
+  } else {
+    btn.style.display = "none";
+  }
+};
+
+btn.onclick = function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+</script>
+
 
 <script>
 /* ... ide jön a JS ... */
