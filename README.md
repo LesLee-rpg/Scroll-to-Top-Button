@@ -84,7 +84,7 @@ https://www.nemethlaszlokomuves.hu
 
 ---
 
-##Fejlesztési tervek:
+## Fejlesztési tervek:
 
 Mobilbarát verzió
 
